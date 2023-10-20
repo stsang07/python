@@ -4,7 +4,7 @@ import pandas as pd
 import random 
 
 # Define the path to Seattle Restaurant csv data set
-dataset_path = "/Users/steph/Downloads/Restaurants_Seattle.csv"
+dataset_path = "data_sources/Restaurants_Seattle.csv"
 
 # Read the CSV file into a pandas DataFrame
 seattle_restaurants_data = pd.read_csv(dataset_path)
